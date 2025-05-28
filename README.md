@@ -1,13 +1,38 @@
+# Video Player
+
+A simple video player web application using Flask.
+
 ## Installation
+
+Clone the repository and install the required dependencies:
+
+```bash
 git clone https://github.com/aayushRoboAds/video-player.git
 pip install flask
+```
 
 ## Usage
-( LOCALLY ) code tunnel --port 5000
-( VS CODE SERVER ) make port 5000 public
-( VS CODE SERVER) python video-player.py
-( LOCALLY ) python video-player.py
 
-# Check Media instructions for media file setup
+### Run Locally
 
-**Access at localhost:5000 **
+```bash
+code tunnel --port 5000
+python video-player.py
+```
+
+### Run on VS Code Server
+
+1. Make port 5000 public.
+2. Start the application:
+
+```bash
+python video-player.py
+```
+
+## Media Setup
+
+Check the **Media instructions** in the repository for media file setup.
+
+## Access the App
+
+Open your browser and navigate to: [http://localhost:5000](http://localhost:5000)
